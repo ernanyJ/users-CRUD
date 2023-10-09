@@ -1,0 +1,8 @@
+{
+   name: "Lucas"
+   email: "lucas@gmail"
+   age: 19
+   height: 1,72
+
+    }
+
