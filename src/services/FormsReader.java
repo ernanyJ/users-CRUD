@@ -10,13 +10,12 @@ import java.util.List;
 
 public class FormsReader {
 
+    static final String FILE_PATH = "src/resources/forms.txt";
 
     public static List<String> read() {
 
-        String filePath = "C:\\Users\\julio\\Desktop\\usersCRUD\\src\\resources\\forms.txt";
-
         try {
-            BufferedReader br = new BufferedReader(new FileReader(filePath));
+            BufferedReader br = new BufferedReader(new FileReader(FILE_PATH));
             List<String> textLines = new ArrayList<>();
 
             String line = br.readLine();
